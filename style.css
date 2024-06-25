@@ -1,0 +1,59 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3d5afe;
+}
+
+.pie-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.donut {
+    transform: rotate(-90deg);
+}
+
+.chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.investment-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: -20px;
+}
+
+.investment-item {
+    margin: 10px 0;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.investment-amount {
+    font-size: 1rem;
+    font-weight: bold;
+}
